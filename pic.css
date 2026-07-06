@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color:gray;
+    padding: 20px;
+    text-align: center;
+}
+li,ul{
+    display: inline;
+}
+li{
+    cursor: pointer;
+}
+li:hover{
+    color: navy;
+}
+.box{
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    display: inline-block;
+    width: 320px;
+    height: 420px;
+    vertical-align: top;
+    margin:50px;
+}
+.box:hover{
+    background-color: black;
+    color: white;
+}
+.contact{
+    background-color: gray;
+    padding: 30px;
+}
+
+.one{
+    background-color: yellowgreen;
+    display: inline-block;
+    width: 500px;
+}
